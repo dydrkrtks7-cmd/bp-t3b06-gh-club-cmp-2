@@ -24,51 +24,67 @@
     <meta name="twitter:image" content="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='315' viewBox='0 0 600 315'%3E%3Crect width='600' height='315' fill='%23111'/%3E%3Ctext x='20' y='200' font-family='monospace' font-size='42' font-weight='bold' fill='%23ffff00'%3EAIRPORT CLUB%3C/text%3E%3Ctext x='20' y='260' font-family='monospace' font-size='32' fill='%2300ff41'%3ECOMPARE%3C/text%3E%3C/svg%3E">
 
     <!-- JSON-LD 스키마 (공항 클럽 비교 – LocalBusiness 느낌) -->
-    <script type="application/ld+json">
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "공항 클럽 비교 – 브로들의 라운지 후기",
+  "description": "공항 라운지 & 클럽 비교, 진짜 후기와 꿀팁. 인천, 김포, 김해 공항 클럽 장단점을 브로 스타일로 까발린다.",
+  "url": "https://airport-club-tip.mapo-room-guide.xyz/",
+  "telephone": "+82-10-6279-0862",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "서울",
+    "addressCountry": "KR"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.7",
+    "reviewCount": "128",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "review": [
     {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "공항 클럽 비교 – 브로들의 라운지 후기",
-        "description": "공항 라운지 & 클럽 비교, 진짜 후기와 꿀팁. 인천, 김포, 김해 공항 클럽 장단점을 브로 스타일로 까발린다.",
-        "url": "https://t3b06-gh-club-cmp-2.vercel.app/",
-        "telephone": "+82-10-6279-0862",
-        "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "서울",
-            "addressCountry": "KR"
-        },
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.7",
-            "reviewCount": "128",
-            "bestRating": "5",
-            "worstRating": "1"
-        },
-        "review": [
-            {
-                "@type": "Review",
-                "author": { "@type": "Person", "name": "훅날개" },
-                "datePublished": "2025-02-14",
-                "reviewBody": "인천공항 라운지 중에 여기가 제일 나음. 샴페인 무제한에 뷰 좋음. 브로들 극추천.",
-                "reviewRating": { "@type": "Rating", "ratingValue": "5" }
-            },
-            {
-                "@type": "Review",
-                "author": { "@type": "Person", "name": "김포러버" },
-                "datePublished": "2025-01-28",
-                "reviewBody": "김포 라운지는 작지만 아담하고 조용함. 국내선 갈아타기 좋음. 근데 음식은 별로.",
-                "reviewRating": { "@type": "Rating", "ratingValue": "4" }
-            },
-            {
-                "@type": "Review",
-                "author": { "@type": "Person", "name": "제주도갈래" },
-                "datePublished": "2025-03-02",
-                "reviewBody": "김해공항 클럽 신규 오픈했는데 깔끔하고 의자 편함. 혼자 여행하기 좋아.",
-                "reviewRating": { "@type": "Rating", "ratingValue": "5" }
-            }
-        ]
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "훅날개"
+      },
+      "datePublished": "2025-02-14",
+      "reviewBody": "인천공항 라운지 중에 여기가 제일 나음. 샴페인 무제한에 뷰 좋음. 브로들 극추천.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "김포러버"
+      },
+      "datePublished": "2025-01-28",
+      "reviewBody": "김포 라운지는 작지만 아담하고 조용함. 국내선 갈아타기 좋음. 근데 음식은 별로.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "4"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "제주도갈래"
+      },
+      "datePublished": "2025-03-02",
+      "reviewBody": "김해공항 클럽 신규 오픈했는데 깔끔하고 의자 편함. 혼자 여행하기 좋아.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      }
     }
-    </script>
+  ]
+}</script>
 
     <style>
         /* ===== RESET & BASE ===== */
